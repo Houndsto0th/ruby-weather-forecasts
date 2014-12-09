@@ -9,3 +9,7 @@ forecast = {
 }
 
 #----- your code below -----
+
+forecast.each do |day, temperature|
+  puts "#{day}: high of #{temperature[0]}, low of #{temperature[1]}"
+end
